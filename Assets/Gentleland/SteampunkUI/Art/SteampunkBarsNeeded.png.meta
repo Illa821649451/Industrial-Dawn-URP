@@ -1,0 +1,693 @@
+fileFormatVersion: 2
+guid: 16c2c536945e4ae458989d6ee36d4e87
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SteampunkBarsNeeded_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 866
+        width: 1021
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034dd44fca42b0140b1f9bc980ce384a
+      internalID: -1923787804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteampunkBarsNeeded_1
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 901
+        width: 629
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc7ca84288eebb4cab29944a541c34a
+      internalID: 1252193344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteampunkBarsNeeded_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 773
+        width: 875
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1143425a8551ee04685478956d0bb22b
+      internalID: -651856435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteampunkBarsNeeded_3
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 793
+        width: 501
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701d4b9357f8d564f9f5484293658be5
+      internalID: -839129844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteampunkBarsNeeded_4
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 782
+        width: 28
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2bbfd400be7aa4b8bfecc32338ccdd
+      internalID: -1119251975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteampunkBarsNeeded_5
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 665
+        width: 887
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e90faa818de16c45ae5b27c3538ff88
+      internalID: -434516424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteampunkBarsNeeded_6
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 723
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a716c0c64deae9343889d433c1a80fde
+      internalID: -207073323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteampunkBarsNeeded_7
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 687
+        width: 508
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179777bb5ef496742b70601940d36dfa
+      internalID: 793422278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteampunkBarsNeeded_8
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 705
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732f1b1f26879da45b4bac1f728043e6
+      internalID: 1112846215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteampunkBarsNeeded_9
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 697
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa56e8c966406342aadd8475c0a2064
+      internalID: -481247735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteampunkBarsNeeded_10
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 674
+        width: 27
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4206ad0bb3d2f5e4e9deffdb83eabc33
+      internalID: -205816415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteampunkBarsNeeded_11
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 395
+        width: 98
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de173dd902c986428f4abb3b68743ae
+      internalID: -1102724749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteampunkBarsNeeded_12
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 380
+        width: 186
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe162b869ce25442af22d55744bfedc
+      internalID: -1278559528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteampunkBarsNeeded_13
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 435
+        width: 119
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391f2bfba9e1d0540b3694465e9c60e7
+      internalID: -1282632960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteampunkBarsNeeded_14
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 474
+        width: 1080
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b7a255b2f3bb74c9a85bded46f7570
+      internalID: 1168208806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteampunkBarsNeeded_18
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 402
+        width: 5
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc51905daf72a54f8229381cea63fa2
+      internalID: 2054003545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteampunkBarsNeeded_19
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 390
+        width: 903
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170a5386efca67942aaaf39c6df95f1a
+      internalID: 137288535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteampunkBarsNeeded_20
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 314
+        width: 5
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b07234a3afe97b4391c5e20947074be
+      internalID: 1434449909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteampunkBarsNeeded_21
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 302
+        width: 903
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71e760228549444ba177bdc0bf5e757
+      internalID: -917828855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteampunkBarsNeeded_22
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 204
+        width: 1031
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb57a8d092f025449b4cd55dbbc6470
+      internalID: -1125351822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteampunkBarsNeeded_23
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 201
+        width: 374
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c7b9b2d0c4ba841b43fc626b8bc52e
+      internalID: 1745163901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteampunkBarsNeeded_24
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 116
+        width: 876
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88f25faff6f33f4d97404416d6b426e
+      internalID: 371015711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteampunkBarsNeeded_25
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 126
+        width: 306
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907ea9c1af72df345bd6c718dfb75a92
+      internalID: 1535120259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteampunkBarsNeeded_26
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 26
+        width: 876
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ae64fdc1da66c4e9868590f98b8df0
+      internalID: -265005219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteampunkBarsNeeded_27
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 48
+        width: 306
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b9681567148d34ab6fa62a29d2ee4a
+      internalID: 131581798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c4d28cffc223ecb4db0ee2fbc83d1e0c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SteampunkBarsNeeded_0: -1923787804
+      SteampunkBarsNeeded_1: 1252193344
+      SteampunkBarsNeeded_10: -205816415
+      SteampunkBarsNeeded_11: -1102724749
+      SteampunkBarsNeeded_12: -1278559528
+      SteampunkBarsNeeded_13: -1282632960
+      SteampunkBarsNeeded_14: 1168208806
+      SteampunkBarsNeeded_15: 512466022
+      SteampunkBarsNeeded_16: -842734687
+      SteampunkBarsNeeded_17: -1433714142
+      SteampunkBarsNeeded_18: 2054003545
+      SteampunkBarsNeeded_19: 137288535
+      SteampunkBarsNeeded_2: -651856435
+      SteampunkBarsNeeded_20: 1434449909
+      SteampunkBarsNeeded_21: -917828855
+      SteampunkBarsNeeded_22: -1125351822
+      SteampunkBarsNeeded_23: 1745163901
+      SteampunkBarsNeeded_24: 371015711
+      SteampunkBarsNeeded_25: 1535120259
+      SteampunkBarsNeeded_26: -265005219
+      SteampunkBarsNeeded_27: 131581798
+      SteampunkBarsNeeded_3: -839129844
+      SteampunkBarsNeeded_4: -1119251975
+      SteampunkBarsNeeded_5: -434516424
+      SteampunkBarsNeeded_6: -207073323
+      SteampunkBarsNeeded_7: 793422278
+      SteampunkBarsNeeded_8: 1112846215
+      SteampunkBarsNeeded_9: -481247735
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
