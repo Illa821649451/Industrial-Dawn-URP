@@ -1,0 +1,32 @@
+newmtl Oilpuddle1Mtl
+Material Color
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0 
+
+d 0.352941
+
+Ns 0
+
+map_Ka Oilpuddle1_diff.png
+map_Kd Oilpuddle1_diff.png
+map_d Oilpuddle1_diff.png
+
+map_Bump Oilpuddle1_nmap.png
+
+map_Ns Oilpuddle1_spec.png
+
+newmtl Oilpuddle2Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 1 1 1 
+
+d 0.0313726
+
+Ns 0
+
+map_Ka Oilpuddle2_diff.png
+map_Kd Oilpuddle2_diff.png
+map_d Oilpuddle2_diff.png
+
