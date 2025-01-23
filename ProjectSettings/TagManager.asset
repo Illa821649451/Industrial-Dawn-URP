@@ -3,14 +3,22 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - PipeDown
+  - LedgeLeft
+  - LedgeRight
+  - PipeUp
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Hands
   - Water
   - UI
+  - Ledge
+  - Screw
+  - WPipe
+  - ClimablePipe
   - 
   - 
   - 
@@ -32,11 +40,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Body
   m_SortingLayers:
   - name: Default
     uniqueID: 0

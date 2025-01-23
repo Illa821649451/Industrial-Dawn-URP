@@ -77,6 +77,8 @@ public class PlayerMovementAdvanced : MonoBehaviour
     float horizontalInput;
     float verticalInput;
 
+    private Animator playerAnimator;
+
     public bool onLedge;
     public bool onPipe;
 
@@ -111,6 +113,7 @@ public class PlayerMovementAdvanced : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
         pc = GetComponent<PlayerClimbing>();
+        playerAnimator = GetComponent<Animator>();
 
         readyToJump = true;
 
@@ -121,6 +124,7 @@ public class PlayerMovementAdvanced : MonoBehaviour
     {
         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
 
+        AnimationController();
         MyInput();
         SpeedControl();
         StateHandler();
@@ -134,6 +138,12 @@ public class PlayerMovementAdvanced : MonoBehaviour
     private void FixedUpdate()
     {
         MovePlayer();
+    }
+
+    private void AnimationController()
+    {
+        playerAnimator.SetInteger("WalkingV", Mathf.RoundToInt(verticalInput));
+        playerAnimator.SetInteger("WalkingH", Mathf.RoundToInt(horizontalInput));
     }
 
     private void MyInput()
@@ -314,7 +324,7 @@ public class PlayerMovementAdvanced : MonoBehaviour
                     {
                         if (OnPlace)
                         {
-                            Vector3 localPos = new Vector3(0.25f, 4.5f, 0);
+                            Vector3 localPos = new Vector3(0.25f, 5f, 0);
                             Vector3 worldPos = transform.parent.TransformPoint(localPos);
                             pc.ExitLedgeHold();
                             StartCoroutine(MoveToPosition(worldPos, climbSpeed));

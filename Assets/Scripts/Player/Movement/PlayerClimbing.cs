@@ -174,7 +174,7 @@ public class PlayerClimbing : MonoBehaviour
         if (detectedLedge)
         {
             localTargetPosition = currLedge.InverseTransformPoint(playerPosition);
-            localTargetPosition.y = 0f;
+            localTargetPosition.y = 0.2f;
             localTargetPosition.z = 1f;
             targetPosition = currLedge.TransformPoint(localTargetPosition);
             Quaternion targetRotation = Quaternion.Euler(0f, 0f, 0f);
