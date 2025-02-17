@@ -194,7 +194,7 @@ public class PlayerClimbing : MonoBehaviour
         else if (detectedClimablePipe)
         {
             localTargetPosition = currLedge.InverseTransformPoint(playerPosition);
-            localTargetPosition.x = -1.25f;
+            localTargetPosition.x = -0.49f;
             localTargetPosition.z = 0f;
             targetPosition = currLedge.TransformPoint(localTargetPosition);
             transform.position = targetPosition;

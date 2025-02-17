@@ -25,9 +25,12 @@ public class PlayerMovementAdvanced : MonoBehaviour
     bool readyToJump;
 
     [Header("Crouching")]
+    public CapsuleCollider cC;
     public float crouchSpeed;
-    public float crouchYScale;
-    private float startYScale;
+    public float HeightCrouched;
+    private float HeightNormal;
+    public int DownSpeed;
+    public int UpSpeed;
     public bool isCrouching = false;
 
     [Header("Climbing")]
@@ -117,7 +120,7 @@ public class PlayerMovementAdvanced : MonoBehaviour
 
         readyToJump = true;
 
-        startYScale = transform.localScale.y;
+        HeightNormal = cC.height;
     }
 
     private void Update()
@@ -159,23 +162,26 @@ public class PlayerMovementAdvanced : MonoBehaviour
 
             Invoke(nameof(ResetJump), jumpCooldown);
         }
-        if (Input.GetKeyDown(sprintKey)) 
+        if (Input.GetKeyDown(sprintKey) && isCrouching == false)
             isSprinting = !isSprinting;
+
+        if(verticalInput <1)
+            isSprinting = false;
 
         if(Input.GetKeyDown(crouchKey))
         {
             isCrouching = !isCrouching;
             isSprinting = false;
-            if(isCrouching == true) 
-                rb.AddForce(Vector3.down * 5f, ForceMode.Impulse);
+            if (isCrouching == true)
+                rb.AddForce(Vector3.down * 3f, ForceMode.Impulse);
         }
         if (isCrouching == true)
         {
-            transform.localScale = new Vector3(transform.localScale.x, crouchYScale, transform.localScale.z); 
+            cC.height = Mathf.Lerp(cC.height, HeightCrouched, Time.fixedDeltaTime * DownSpeed);
         }
         else if (isCrouching == false)
         {
-            transform.localScale = new Vector3(transform.localScale.x, startYScale, transform.localScale.z);
+            cC.height = Mathf.Lerp(cC.height, HeightNormal, Time.fixedDeltaTime * UpSpeed);
         }
     }
 
